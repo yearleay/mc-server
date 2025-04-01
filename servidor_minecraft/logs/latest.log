@@ -1,99 +1,100 @@
-[00:53:17] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[00:53:17] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[00:53:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:53:18] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[00:53:18] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[01:00:35] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[01:00:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[01:00:35] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:00:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[01:00:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - ViaBackwards (5.3.1), ViaRewind (4.0.7), ViaVersion (5.3.1)
-[00:53:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:53:27] [ServerMain/INFO]: Loaded 1337 recipes
-[00:53:27] [ServerMain/INFO]: Loaded 1448 advancements
-[00:53:27] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[00:53:27] [Server thread/INFO]: Loading properties
-[00:53:27] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[00:53:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:53:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:53:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:53:29] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[00:53:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[00:53:30] [Server thread/INFO]: Default game type: SURVIVAL
-[00:53:30] [Server thread/INFO]: Generating keypair
-[00:53:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:53:30] [Server thread/INFO]: Using epoll channel type
-[00:53:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:53:30] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:53:31] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.1
-[00:53:31] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.1 is now loaded. Registering protocol transformers and injecting...
-[00:53:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:53:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:53:33] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[00:53:33] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[00:53:34] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[00:53:34] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.1
-[00:53:34] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
-[00:53:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:53:34] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
-[00:53:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:53:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:53:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:53:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:53:34] [Server thread/INFO]: Preparing level "world"
-[00:53:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:53:35] [Server thread/INFO]: Preparing spawn area: 0%
-[00:53:36] [Server thread/INFO]: Preparing spawn area: 2%
-[00:53:36] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[00:53:36] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 535.5ms
-[00:53:36] [Server thread/INFO]: Preparing spawn area: 2%
-[00:53:37] [Server thread/INFO]: Preparing spawn area: 10%
-[00:53:37] [Server thread/INFO]: Preparing spawn area: 10%
-[00:53:37] [Server thread/INFO]: Time elapsed: 2276 ms
-[00:53:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:53:37] [Server thread/INFO]: Preparing spawn area: 0%
-[00:53:38] [Server thread/INFO]: Time elapsed: 390 ms
-[00:53:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:53:38] [Server thread/INFO]: Preparing spawn area: 0%
-[00:53:38] [Server thread/INFO]: Time elapsed: 297 ms
-[00:53:38] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.1
-[00:53:38] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
-[00:53:38] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.1
-[00:53:38] [Server thread/INFO]: [spark] Starting background profiler...
-[00:53:39] [Server thread/INFO]: Done preparing level "world" (4.466s)
-[00:53:39] [Server thread/INFO]: Running delayed init tasks
-[00:53:39] [Server thread/INFO]: Done (22.921s)! For help, type "help"
-[00:53:39] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[00:55:19] [Server thread/INFO]: Stopping the server
-[00:55:19] [Server thread/INFO]: Stopping server
-[00:55:19] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
-[00:55:19] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.1
-[00:55:19] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.1
-[00:55:19] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[00:55:19] [Server thread/INFO]: Saving players
-[00:55:19] [Server thread/INFO]: Saving worlds
-[00:55:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.43s
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[00:55:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.15s
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[00:55:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.08s
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[00:55:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[00:55:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:55:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:55:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:55:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:55:19] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[00:55:19] [Server thread/INFO]: All I/O tasks to complete
-[00:55:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[00:55:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[01:00:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:00:44] [ServerMain/INFO]: Loaded 1337 recipes
+[01:00:45] [ServerMain/INFO]: Loaded 1448 advancements
+[01:00:45] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[01:00:45] [Server thread/INFO]: Loading properties
+[01:00:45] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[01:00:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:00:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:00:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:00:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[01:00:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[01:00:48] [Server thread/INFO]: Default game type: SURVIVAL
+[01:00:48] [Server thread/INFO]: Generating keypair
+[01:00:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:48] [Server thread/INFO]: Using epoll channel type
+[01:00:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:00:48] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:00:50] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.1
+[01:00:50] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.1 is now loaded. Registering protocol transformers and injecting...
+[01:00:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:00:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:00:51] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:00:51] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:00:52] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[01:00:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.1
+[01:00:53] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+[01:00:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:00:53] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[01:00:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:00:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:00:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:00:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:00:53] [Server thread/INFO]: Preparing level "world"
+[01:00:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:54] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:54] [Server thread/INFO]: Preparing spawn area: 2%
+[01:00:54] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[01:00:55] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 541.3ms
+[01:00:55] [Server thread/INFO]: Preparing spawn area: 2%
+[01:00:55] [Server thread/INFO]: Preparing spawn area: 10%
+[01:00:56] [Server thread/INFO]: Preparing spawn area: 12%
+[01:00:56] [Server thread/INFO]: Time elapsed: 2236 ms
+[01:00:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:00:56] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:56] [Server thread/INFO]: Preparing spawn area: 32%
+[01:00:56] [Server thread/INFO]: Time elapsed: 608 ms
+[01:00:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:00:56] [Server thread/INFO]: Preparing spawn area: 0%
+[01:00:57] [Server thread/INFO]: Time elapsed: 248 ms
+[01:00:57] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.1
+[01:00:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[01:00:57] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.1
+[01:00:57] [Server thread/INFO]: [spark] Starting background profiler...
+[01:00:57] [Server thread/INFO]: Done preparing level "world" (4.696s)
+[01:00:57] [Server thread/INFO]: Running delayed init tasks
+[01:00:57] [Server thread/INFO]: Done (23.882s)! For help, type "help"
+[01:00:57] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:03:38] [Server thread/INFO]: Stopping the server
+[01:03:38] [Server thread/INFO]: Stopping server
+[01:03:38] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+[01:03:38] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.1
+[01:03:38] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.1
+[01:03:38] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[01:03:38] [Server thread/INFO]: Saving players
+[01:03:38] [Server thread/INFO]: Saving worlds
+[01:03:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:03:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:03:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:03:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.51s
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[01:03:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.18s
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[01:03:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.11s
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[01:03:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[01:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:03:39] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[01:03:39] [Server thread/INFO]: All I/O tasks to complete
+[01:03:39] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:03:39] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
